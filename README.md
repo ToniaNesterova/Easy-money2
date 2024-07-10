@@ -52,7 +52,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/front-end-by-rimantas/51-grupe-easy-money.git
+    git clone https://github.com/ToniaNesterova/Easy-money2
     ```
 2. Install NPM packages
     ```sh
@@ -73,7 +73,7 @@ There is no tests for this project.
 
 ## 🎅 Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Antonina: [Github](https://github.com/ToniaNesterova)
 
 ## ⚠️ License
 
