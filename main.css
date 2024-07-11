@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-color: aqua;
+}
+
+header {
+    width: 800px;
+    margin-left: calc(50% - 400px);
+    background-color: yellow;
+}
+
+main {
+}
+
+section:nth-child(1) {
+    width: 800px;
+    margin-top: 60px;
+    margin-left: calc(50% - 400px);
+    background-color: green;
+}
+
+div {
+}
+
+img {
+}
+
+section:nth-child(2) {
+    width: 800px;
+    margin-top: 60px;
+    margin-left: calc(50% - 400px);
+    background-color: red;
+}
