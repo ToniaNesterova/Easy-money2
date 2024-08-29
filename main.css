@@ -18,59 +18,86 @@ header {
     margin-top: 60px;
     }
 
+header > img {
+    height: 40px;
+    }
+   
+header > nav {
+    display: flex;
+    gap: 30px;
+       }
+   
+header > nav > a {
+    font-size: 20px;
+    line-height: 1em;
+    text-decoration: none;
+    color: grey;
+    }
+   
+header > nav > a:nth-child(1) {
+    color: red;
+}
+
 .logo {
     height: 30px
 }
 
-header > img {
-     height: 40px;
-    }
+.main-nav {
+    display: flex;
+    gap: 30px;
+}
 
-    header > nav {
-        display: flex;
-        gap: 30px;
+.main-nav {
+    display: flex;
+    gap: 30px;
+}
 
-    }
+.link {
+    font-size: 20px;
+    line-height: 1em;
+    text-decoration: none;
+    color: grey;
+}
 
-    header > nav > a {
-        font-size: 20px;
-        line-height: 1em;
-        text-decoration: none;
-        color: grey;
-    }
+.link.active {
+    color: red;
+}
 
-    header > nav > a:nth-child(1) {
-        color: red;
-    }
+.btn {
+    padding: 0.3em 1em;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    line-height: 2em;
+    text-decoration: none;
+    border-radius: 0.5em;
+}
 
-    header > a {
-        padding: 0.3em 1em;
-        background-color: black;
-        color: white;
-        font-size: 16px;
-        line-height: 2em;
-        text-decoration: none;
-        border-radius: 0.5em;
-    }
-
-main {
+.main {
     margin-top: 60px;
     }
 
-main > section + section {
-    margin-top: 60px;
-}
-
-div {
-    float: left;
-    width: 35%;
-
-}
-
-section > img {
-    float: right;
-    width: 3
-    55%;
+    .main > .container + .containe {
+        margin-top: 60px;
     }
+
+    .texts {
+        float: left;
+        width: 35%;
+    
+    }
+    
+    .hero-img {
+        float: right;
+        width: 55%;
+        }
+
+
+    
+
+
+
+
+
 
   
